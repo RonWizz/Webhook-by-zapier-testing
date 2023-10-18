@@ -1,0 +1,121 @@
+.heroic {
+  height: 650px;
+  background-image: linear-gradient(to bottom, hsla(0, 0.00%, 11.00%, 1.00), hsla(0, 0.00%, 100.00%, 0.00)), url("https://uploads-ssl.webflow.com/64db145c0d43070d1977b449/64e0610ec8bff842f8b3dc6c_pexels-deeana-arts-2565222.jpg");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+@media screen and (max-width: 767px) {
+  .heroic {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .heroic {
+    height: 400px;
+  }
+}
+
+.div-block-33 {
+  max-width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+@media screen and (max-width: 479px) {
+  .div-block-33.mob-text {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
+.div-block-14 {
+  max-width: 500px;
+  margin-top: 100px;
+  text-align: left;
+}
+
+@media screen and (max-width: 991px) {
+  .div-block-14 {
+    margin-right: 60px;
+    margin-left: 60px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .div-block-14 {
+    margin-top: 40px;
+    margin-right: 60px;
+    margin-left: 60px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .div-block-14.mob-pad {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+.heading-15 {
+  color: var(--white-4f231e50);
+  font-size: 60px;
+  line-height: 70px;
+  text-align: left;
+}
+
+@media screen and (max-width: 991px) {
+  .heading-15 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .heading-15 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .heading-15 {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: left;
+  }
+}
+
+.paragraph-10 {
+  margin-top: 20px;
+  color: var(--white-4f231e50);
+  font-size: 18px;
+  line-height: 25px;
+  text-align: left;
+}
+
+@media screen and (max-width: 991px) {
+  .paragraph-10 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .paragraph-10 {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .paragraph-10 {
+    margin-left: 0px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

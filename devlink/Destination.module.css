@@ -1,0 +1,96 @@
+.div-block-32 {
+  height: 650px;
+  background-image: url("https://uploads-ssl.webflow.com/64db145c0d43070d1977b449/64e0b6eeb931a8080b8f7e77_pexels-monstera-7412074%201-min.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 767px) {
+  .div-block-32 {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .div-block-32 {
+    height: 450px;
+  }
+}
+
+.div-block-35 {
+  max-width: 1160px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+@media screen and (max-width: 991px) {
+  .div-block-35 {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .div-block-35 {
+    margin-top: 40px;
+  }
+}
+
+.div-block-34 {
+  max-width: 500px;
+  text-align: left;
+}
+
+.heading-31 {
+  color: var(--white-4f231e50);
+  font-size: 60px;
+  line-height: 70px;
+}
+
+@media screen and (max-width: 479px) {
+  .heading-31 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .heading-31.tab-heading {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .heading-31.tab-heading {
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
+
+.paragraph-24 {
+  margin-top: 40px;
+  color: var(--white-4f231e50);
+  font-size: 18px;
+  line-height: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  .paragraph-24 {
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .paragraph-24 {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
